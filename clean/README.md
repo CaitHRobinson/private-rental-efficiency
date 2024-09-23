@@ -1,6 +1,8 @@
 # cleaning-epc-data
 
-This folder includes a script detailed [how to clean and prepare the EPC variables](https://github.com/CaitHRobinson/private-rental-efficiency/blob/main/clean/clean-code.r) of interest for the example region of the North East of England. <img src="https://github.com/user-attachments/assets/323e2039-d2e7-4620-81af-7505d7c51d28" width=50% height=50%>
+This folder includes a script detailed [how to clean and prepare the EPC variables](https://github.com/CaitHRobinson/private-rental-efficiency/blob/main/clean/clean-code.r) of interest for the example region of the North East of England. 
+
+<img src="https://github.com/user-attachments/assets/323e2039-d2e7-4620-81af-7505d7c51d28" width=50% height=50%>
 
 
 **Downloading EPC data**: EPC data are appended to Unique Property Reference Numbers - unique identifiers for every address. We download the EPC data for properties in Local Authority Districts from [Open Data Communities](https://epc.opendatacommunities.org/), which provides property-scale EPC data that can be joined to the [UPRN shapefile](https://osdatahub.os.uk/downloads/open/OpenUPRN).
@@ -11,5 +13,5 @@ This folder includes a script detailed [how to clean and prepare the EPC variabl
 
 **Aggregating EPC data:** EPC property data is aggregated to Output Areas (OA) (n = 188,871) to overcome gaps in the dataset (ONS, 2022b.). OA contain between 40 and 250 households - as demographically close as possible to street-level. 
 
-We repeat this process for all regions in England and Wales, and a final dataset of variables for all OA nationally is also available. Here, OA with 5 or less private rental properties with an EPC are removed. This provides the input into our k-means [cluster analysis](https://github.com/CaitHRobinson/private-rental-efficiency/edit/main/cluster).
+We repeat this process for all regions in England and Wales, and a [final dataset](https://github.com/CaitHRobinson/private-rental-efficiency/blob/main/cluster/PRS_EPC_OA_counts_over5.zip) of variables for all OA nationally is also available. Here, OA with 5 or less private rental properties with an EPC are removed. This provides the input into our k-means [cluster](https://github.com/CaitHRobinson/private-rental-efficiency/edit/main/cluster) analysis.
 
