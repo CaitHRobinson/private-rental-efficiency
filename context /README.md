@@ -1,4 +1,4 @@
-# contextualising-clusters
+# Contextualising clusters using social and demographic data
 
 *Language:* Python 🐍
 
