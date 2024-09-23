@@ -1,5 +1,5 @@
 # cluster-analysis
-K-means clustering is used to derive our final classification. In this section we show how k-means clustering is carried out. We also include a dataset with the final OA scale classification for England and Wales.
+K-means clustering is used to derive our final classification. In this section we show how k-means clustering is carried out. We also include a [dataset of the final classification](https://github.com/CaitHRobinson/private-rental-efficiency/blob/main/cluster/PRS_EPC_OA_clusters_9.zip) for OA in England and Wales.
 
 **K-means clustering:** K-means iteratively relocates data points between a predefined set of k clusters. Each observation belongs to the cluster with the nearest mean. Clusters have a high degree of similarity within, and low degree of similarity between them. We use a MacQueen variation that recalculates cluster centroids each time it iterates over a datapoint, until they converge. 
 
