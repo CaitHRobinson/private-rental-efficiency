@@ -6,3 +6,7 @@ The analysis is split into three sections:
 [Clean](): How to clean and process the EPC data for analysis
 
 [Cluster](https://github.com/CaitHRobinson/private-rental-efficiency/tree/main/cluster): How to carry out k-means clustering to derive your final classification.
+
+[Context](): How to contextualise clusters using socio-demographic data
+
+Our project team works across programming languages, therefore clean and cluster are provided in R, and context is provided in python.
