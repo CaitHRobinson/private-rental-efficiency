@@ -15,5 +15,5 @@
 
 *Aggregating EPC data:* EPC property data is aggregated to [Output Areas (OA)](https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeographies/census2021geographies) to overcome gaps in the dataset. OA contain between 40 and 250 households - as demographically close as possible to street-level. 
 
-📊 **Dataset download: ** We repeat the above process for all regions, creating a [final dataset](https://github.com/CaitHRobinson/private-rental-efficiency/blob/main/clean/PRS_EPC_OA_counts_over5.zip) of variables for all OA in England and Wales. Here, OA with 5 or less private rental properties with an EPC are removed. This dataset is the input into our [cluster](https://github.com/CaitHRobinson/private-rental-efficiency/edit/main/cluster) analysis.
+📊 **Dataset download:** We repeat the above process for all regions, creating a [final dataset](https://github.com/CaitHRobinson/private-rental-efficiency/blob/main/clean/PRS_EPC_OA_counts_over5.zip) of variables for all OA in England and Wales. Here, OA with 5 or less private rental properties with an EPC are removed. This dataset is the input into our [cluster](https://github.com/CaitHRobinson/private-rental-efficiency/edit/main/cluster) analysis.
 
