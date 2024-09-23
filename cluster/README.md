@@ -3,7 +3,7 @@ K-means clustering is used to derive our final classification. The code in this 
 
 **K-means clustering:** K-means iteratively relocates data points between a predefined set of k clusters. Each observation belongs to the cluster with the nearest mean. Clusters have a high degree of similarity within, and low degree of similarity between them. We use a MacQueen variation that recalculates cluster centroids each time it iterates over a datapoint, until they converge. 
 
-**Preparing the data:** Prior to cluster analysis, variables are standardised using z-scores. 
+**Preparing the data:** Prior to cluster analysis, variables are recalculated as percentages and standardised using z-scores. We select 11 EPC variables to be included in the cluster analysis.
 
 **Choosing the optimal cluster number:** Several diagnostics evaluate the final number of clusters: a between-cluster and within-cluster sum of squares statistic. We choose a nine-cluster solution, balancing detail with usability. Clusters names describe the density, geography, and intensity of inefficiency.
 
