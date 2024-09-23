@@ -3,4 +3,5 @@ Like many countries globally, the private rental sector in England and Wales con
 
 The analysis is split into three sections:
 
+[Clean](): How to clean and process the EPC data for analysis
 [Cluster](https://github.com/CaitHRobinson/private-rental-efficiency/tree/main/cluster): How to carry out k-means clustering to derive your final classification.
