@@ -381,8 +381,7 @@ c8 <- ggplot(centers_9_long_8, aes(x = Variable, y = Value,
 centers_9_long_9 <- centers_9_long %>%
   filter(Cluster == 9)
 
-c9 <- ggplot(centers_9_long_9, aes(x = Variable, y = Value, 
-                             xend = Variable, yend = 0,
+c9 <- ggplot(centers_9_long_9, aes(x = Variable, y = Value,                              xend = Variable, yend = 0,
            col = Value >= 0))+
   geom_segment(linewidth = 2)+
   scale_y_continuous(limits=c(-1, 8))+
@@ -396,16 +395,3 @@ c9 <- ggplot(centers_9_long_9, aes(x = Variable, y = Value,
 
 grid.arrange(c1, c2, c3, c4, c5, c6, c7, c8, c9, nrow = 3)
 
-## Export geopackage
-### Add cluster information to original data
-OA_data_centroids <- cluster.data.df %>%
-  mutate(cluster_6 = kmeans_6$cluster,
-         cluster_7 = kmeans_7$cluster,
-         cluster_8 = kmeans_8$cluster,
-         cluster_9 = kmeans_9$cluster,
-         cluster_10 = kmeans_10$cluster,
-         cluster_11 = kmeans_11$cluster)
-
-OA_data_centroids_sf <- st_as_sf(OA_data_centroids)
-
-st_write(OA_data_centroids_sf, "OA_clusters.gpkg")
