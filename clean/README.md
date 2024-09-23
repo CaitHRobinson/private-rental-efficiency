@@ -1,4 +1,4 @@
-## Cleaning and preparing EPC data
+## Clean and prepare EPC data
 
 💬 **Language:** R
 
