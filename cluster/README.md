@@ -7,7 +7,7 @@ K-means clustering is used to derive our final classification. The code in this 
 
 **Choosing the optimal cluster number:** Several diagnostics evaluate the final number of clusters: a between-cluster and within-cluster sum of squares statistic. We choose a nine-cluster solution, balancing detail with usability. Clusters names describe the density, geography, and intensity of inefficiency.
 
-https://github.com/user-attachments/assets/f7972654-0857-4589-bea0-b648a0d37689
+<img src="https://github.com/user-attachments/assets/f7972654-0857-4589-bea0-b648a0d37689">
 
 
 
