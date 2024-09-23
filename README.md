@@ -9,4 +9,4 @@ The analysis is split into three sections:
 
 [Context](): How to contextualise clusters using socio-demographic data
 
-Our project team works across programming languages, therefore clean and cluster are provided in R, and context is provided in python.
+Please not that our project team works across programming languages, therefore clean and cluster are provided in R, and context is provided in python.
