@@ -12,7 +12,7 @@ Like many countries globally, the private rental sector in England and Wales con
 
 *[Context](https://github.com/CaitHRobinson/private-rental-efficiency/tree/main/context%20):* How to contextualise clusters using socio-demographic data
 
-📊 **Access the final classification:** View the final classification mapped for Output Areas in England and Wales [here](https://uobristol.maps.arcgis.com/apps/dashboards/70659ed299ff42bcb9410d6fc270aea4) or download it [here](https://github.com/CaitHRobinson/private-rental-efficiency/blob/main/cluster/PRS_EPC_OA_clusters_9.zip).
+📊 **Dataset download:** View the final classification mapped for Output Areas in England and Wales [here](https://uobristol.maps.arcgis.com/apps/dashboards/70659ed299ff42bcb9410d6fc270aea4) or download it [here](https://github.com/CaitHRobinson/private-rental-efficiency/blob/main/cluster/PRS_EPC_OA_clusters_9.zip).
 
 
 <img src= "https://github.com/user-attachments/assets/4e70dc72-82cb-4221-b327-64c7b031a065">
