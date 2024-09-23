@@ -1,6 +1,6 @@
 # cleaning-epc-data
 
-This folder shows [how to clean and prepare the EPC variables](https://github.com/CaitHRobinson/private-rental-efficiency/blob/main/clean/clean-code.r) of interest for the example region of the North East of England. We repeat this process for all regions in England and Wales, and a final dataset of variables for all OA nationally is available here.
+This folder includes a script detailed [how to clean and prepare the EPC variables](https://github.com/CaitHRobinson/private-rental-efficiency/blob/main/clean/clean-code.r) of interest for the example region of the North East of England. We repeat this process for all regions in England and Wales, and a final dataset of variables for all OA nationally is also available.
 
 <img src="https://github.com/user-attachments/assets/323e2039-d2e7-4620-81af-7505d7c51d28" width=50% height=50%>
 
