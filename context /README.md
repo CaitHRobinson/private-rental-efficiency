@@ -1,6 +1,6 @@
 # contextualising-clusters
 
-*Language:* Python
+*Language:* Python 🐍
 
 **Section summary:** We contextualise our clusters with a range of social and demographic data available at Output Area from the most recent [Census in 2021](https://www.ons.gov.uk/census). This includes data about deprivation, tenure, household size and age.
 
