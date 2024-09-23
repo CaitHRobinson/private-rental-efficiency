@@ -2,7 +2,7 @@
 
 *Language:* R
 
-**Section summary:** K-means clustering is used to derive our final classification. In this section we show how k-means clustering is carried out and the optimal number of clusters selected.
+📌 **Section summary:** K-means clustering is used to derive our final classification. In this section we show how k-means clustering is carried out and the optimal number of clusters selected.
 
 *K-means clustering:* K-means iteratively relocates data points between a predefined set of k clusters. Each observation belongs to the cluster with the nearest mean. Clusters have a high degree of similarity within, and low degree of similarity between them. We use a MacQueen variation that recalculates cluster centroids each time it iterates over a datapoint, until they converge. 
 
