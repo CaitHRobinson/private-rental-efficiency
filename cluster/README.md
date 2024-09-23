@@ -1,4 +1,4 @@
-# cluster-analysis
+# Cluster analysis to create classification
 
 *Language:* R
 
