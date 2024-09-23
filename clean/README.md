@@ -1,5 +1,7 @@
 # cleaning-epc-data
 
+*Language:* R
+
 We analyse new property-scale Energy Performance Certificates (EPC). In this section we explain [how to clean and prepare the EPC variables](https://github.com/CaitHRobinson/private-rental-efficiency/blob/main/clean/clean-code.r) of interest, for an example region of the North East of England. 
 
 <img src="https://github.com/user-attachments/assets/323e2039-d2e7-4620-81af-7505d7c51d28" width=50% height=50%>
