@@ -6,6 +6,6 @@ This folder shows [how to clean and prepare the EPC variables](https://github.co
 
 **Cleaning EPC data:** Our code filters only EPC issued between September 2012 and September 2022 (ODC, 2022). We select only one EPC for each address and the most recent certificate. We replace NA values with 0.
 
-**EPC vairables:** EPC include aggregate scores for efficiency and consumption, and physical attributes and efficiency characteristics. Efficiency ratings are estimated between A-G, with A being most efficient (Table 1). Our variables relate to the most intensive energy services – space and water heating. Whilst most variables negatively impact efficiency (e.g., older properties often have inefficient solid walls), some are positive and negative.
+**EPC variables:** EPC include aggregate scores for efficiency and consumption, and physical attributes and efficiency characteristics. Efficiency ratings are estimated between A-G, with A being most efficient (Table 1). Our variables relate to the most intensive energy services – space and water heating. Whilst most variables negatively impact efficiency (e.g., older properties often have inefficient solid walls), some are positive and negative.
 
 **Aggregating EPC data:** EPC property data is aggregated to Output Areas (OA) (n = 188,871) to overcome gaps in the dataset (ONS, 2022b.). OA contain between 40 and 250 households - as demographically close as possible to street-level. 
