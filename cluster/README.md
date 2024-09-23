@@ -10,7 +10,7 @@
 
 *Choosing the optimal cluster number:* Several diagnostics evaluate the final number of clusters including a between-cluster and within-cluster sum of squares statistic. We choose a nine-cluster solution, balancing detail with usability. Clusters names describe the density, geography, and intensity of inefficiency.
 
-📊 **Download clusters for OA in England and Wales**: We include a [dataset of the final classification](https://github.com/CaitHRobinson/private-rental-efficiency/blob/main/cluster/PRS_EPC_OA_clusters_9.zip) for OA nationally for a nine cluster solution.
+📊 **Dataset download**: We include a [dataset of the final classification](https://github.com/CaitHRobinson/private-rental-efficiency/blob/main/cluster/PRS_EPC_OA_clusters_9.zip) for OA nationally across England and Wales for a nine cluster solution.
 
 <img src="https://github.com/user-attachments/assets/f7972654-0857-4589-bea0-b648a0d37689">
 
