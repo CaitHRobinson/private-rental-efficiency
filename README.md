@@ -9,5 +9,5 @@ The analysis is split into three sections. Please note that our project team wor
 
 [Context](): How to contextualise clusters using socio-demographic data
 
-You can [view the final classification mapped here](https://uobristol.maps.arcgis.com/apps/dashboards/70659ed299ff42bcb9410d6fc270aea4). 
+You can view the [final classification mapped for Output Areas in England and Wales here](https://uobristol.maps.arcgis.com/apps/dashboards/70659ed299ff42bcb9410d6fc270aea4). 
 
