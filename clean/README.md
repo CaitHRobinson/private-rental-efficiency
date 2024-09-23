@@ -4,6 +4,7 @@ This folder shows [how to clean and prepare the EPC variables](https://github.co
 
 <img src="https://github.com/user-attachments/assets/323e2039-d2e7-4620-81af-7505d7c51d28" width=50% height=50%>
 
+
 **Downloading EPC data**: EPC data are appended to Unique Property Reference Numbers - unique identifiers for every address. We download the EPC data for properties in Local Authority Districts from [Open Data Communities](https://epc.opendatacommunities.org/), which provides property-scale EPC data that can be joined to the [UPRN shapefile](https://osdatahub.os.uk/downloads/open/OpenUPRN).
 
 **Cleaning EPC data:** Our code filters only EPC issued between September 2012 and September 2022 (ODC, 2022). We select only one EPC for each address and the most recent certificate. We replace NA values with 0.
