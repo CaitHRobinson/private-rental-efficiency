@@ -1,8 +1,8 @@
 # cleaning-epc-data
 
-EPC data is compiled for 3.9 million private rental properties in England and Wales as part of this analysis (~78.8% of sector). EPC data is most complete for private rentals because a new certificate must be obtained every decade, unlike owner-occupied properties. The code in this folder show [how to clean and prepare the EPC variables](https://github.com/CaitHRobinson/private-rental-efficiency/blob/main/clean/clean-code.r) of interest for the example region of the North East of England.
+This folder shows [how to clean and prepare the EPC variables](https://github.com/CaitHRobinson/private-rental-efficiency/blob/main/clean/clean-code.r) of interest for the example region of the North East of England. 
 
-**EPC data**: EPC data appended to Unique Property Reference Numbers - unique identifiers for every address - offer detailed insights into housing characteristics previously impossible to achieve using open-source data. We download the EPC data for properties in Local Authority Districts from Open Data Communities.
+**EPC data**: EPC data are appended to Unique Property Reference Numbers - unique identifiers for every address. We download the EPC data for properties in Local Authority Districts from [Open Data Communities](https://epc.opendatacommunities.org/).
 
 **Cleaning EPC data:** We use EPC issued between September 2012 and September 2022 (ODC, 2022). We select only one EPC for each address. We select only the most recent certificate. We replace NA values with 0.
 
