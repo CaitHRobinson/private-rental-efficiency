@@ -1,4 +1,4 @@
-cleaning-epc-data
+# cleaning-epc-data
 
 EPC data is compiled for 3.9 million private rental properties in England and Wales as part of this analysis (~78.8% of sector). EPC data is most complete for private rentals because a new certificate must be obtained every decade, unlike owner-occupied properties. The code in this folder show how to clean and prepare the EPC variables of interest for the example region of the North East of England.
 
